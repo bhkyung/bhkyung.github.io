@@ -1,7 +1,7 @@
 ---
 layout: single
-mathjax: true  # mathjax 의 사용 여부를 나타내는 부분
 title:  "분류(Classification)"
+use_math: true
 ---
 
 출처:  [Machine Learning Crash Course: Classification](https://developers.google.com/machine-learning/crash-course/classification/thresholding?hl=en)
