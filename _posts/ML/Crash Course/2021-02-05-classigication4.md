@@ -1,6 +1,11 @@
 ---
 layout: single
 title:  "분류(Classification)"
+tags:
+  - Blog
+  - MathJax
+  - Jekyll
+  - LaTeX
 use_math: true
 ---
 
