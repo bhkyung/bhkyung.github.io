@@ -1,5 +1,5 @@
 ---
-layout: single
+post: single
 title:  "분류(Classification)"
 ---
 
