@@ -48,13 +48,16 @@ title:  "분류(Classification)"
 ###  정확성(Accuracy) ###
 
 정확성은 분류 모델 평가를 위한 측정항목 중 하나입니다. 비공식적으로 **정확성**은 모델의 예측이 얼마나 정확한가를 보여줍니다. 공식적으로 정확성의 정의는 다음과 같습니다.
+
 $$
 정확성 = \frac{정확한예측수}{총예측수}
 $$
+
 이진 분류에서는 다음과 같이 양성과 음성을 기준으로 정확성을 계산할 수도 있습니다.
 $$
 정확성 = \frac{TP + TN}{TP + TN + FP + FN}
 $$
+
 여기에서 *TP*=참 양성(True Positives), *TN*=참 음성(True Negatives),*FP*=허위 양성(False Positives), *FN*=허위 음성(False Negatives)입니다.
 
 다음과 같이 [악성](https://wikipedia.org/wiki/Malignancy)으로 분류된 종양(포지티브 클래스) 또는 [양성](https://wikipedia.org/wiki/Benign_tumor)으로 분류된 종양(네거티브 클래스) 모델 100개의 정확성을 계산해 보겠습니다.
@@ -66,7 +69,6 @@ $$
 $$
 정확성 = \frac{TP + TN}{TP + TN + FP + FN} = \frac{1 + 90}{11 + 90 + 1 + 8} = 0.91
 $$
-
 
 정확성은 0.91 또는 91%(총 100개의 예제 중 정확한 예측 91개)로 나타납니다. 이는 종양 분류자가 악성 종양을 제대로 식별했음을 의미합니다.
 
