@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 mathjax: true  # mathjax 의 사용 여부를 나타내는 부분
 title:  "분류(Classification)"
 ---
