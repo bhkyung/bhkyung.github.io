@@ -18,11 +18,11 @@ This formula $f(x) = x^2$ is an example
 $\lim_{x\to 0}$
 
 
-$$
+$
 \lim_{x\to 0}{\frac{e^x-1}{2x}}
 \overset{\left[\frac{0}{0}\right]}{\underset{\mathrm{H}}{=}}
 \lim_{x\to 0}{\frac{e^x}{2}}={\frac{1}{2}}
-$$
+$
 
 로지스틱 회귀는 확률을 반환합니다. 반환된 확률을 '있는 그대로' 사용하거나(예: 사용자가 이 광고를 클릭할 확률은 0.00023임), 이진 값으로 변환하여(예: 이 이메일은 스팸임) 사용할 수 있습니다.
 
