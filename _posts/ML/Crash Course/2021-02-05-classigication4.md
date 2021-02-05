@@ -13,15 +13,6 @@ use_math: true
 
 ### 임계점(Thresholding) ###
 
-This formula $f(x) = x^2$ is an example
-
-$\lim_{x\to 0}$
-
-
-$\lim_{x\to 0}{\frac{e^x-1}{2x}}
-\overset{\left[\frac{0}{0}\right]}{\underset{\mathrm{H}}{=}}
-\lim_{x\to 0}{\frac{e^x}{2}}={\frac{1}{2}}$
-
 로지스틱 회귀는 확률을 반환합니다. 반환된 확률을 '있는 그대로' 사용하거나(예: 사용자가 이 광고를 클릭할 확률은 0.00023임), 이진 값으로 변환하여(예: 이 이메일은 스팸임) 사용할 수 있습니다.
 
 로지스틱 회귀 모형에서 특정 이메일에 관해 0.9995가 반환되면, 이 이메일은 스팸일 가능성이 매우 높은 메일로 예측된 것입니다. 이와 반대로 동일한 로지스틱 회귀 모형에서 예측 점수가 0.0003점인 다른 이메일은 스팸이 아닐 가능성이 높습니다. 그렇다면 예측 점수가 0.6점인 이메일은 어떨까요? 로지스틱 회귀 값을 이진 카테고리에 매핑하려면 **분류 임계값**(**결정 임계값**이라고도 함)을 정의해야 합니다. 임계값보다 높은 값은 '스팸'을 나타내고 임계값보다 낮은 값은 '스팸 아님'을 나타냅니다. 분류 임계값은 항상 0.5여야 한다고 생각하기 쉽지만 임계값은 문제에 따라 달라지므로 값을 조정해야 합니다.
@@ -67,9 +58,7 @@ $Accuracy = \frac{Number of correct prediction}{Total number of prediction}$
 
 이진 분류에서는 다음과 같이 양성과 음성을 기준으로 정확성을 계산할 수도 있습니다.
 
-$$
-정확성 = \frac{TP + TN}{TP + TN + FP + FN}
-$$
+$정확성 = \frac{TP + TN}{TP + TN + FP + FN}$
 
 여기에서 *TP*=참 양성(True Positives), *TN*=참 음성(True Negatives),*FP*=허위 양성(False Positives), *FN*=허위 음성(False Negatives)입니다.
 
