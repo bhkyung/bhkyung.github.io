@@ -1,6 +1,7 @@
 ---
 layout: single
 title:  "분류(Classification)"
+toc: true
 tags:
   - Blog
   - MathJax
