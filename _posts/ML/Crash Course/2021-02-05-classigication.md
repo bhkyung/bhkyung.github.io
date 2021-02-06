@@ -501,4 +501,4 @@ $$
 - 데이터 세트의 일부 하위 집합이 다른 하위 집합보다 노이즈가 많습니다.
 - 모델이 지나치게 [정규화되어 있습니다](https://developers.google.com/machine-learning/crash-course/regularization-for-simplicity/video-lecture?hl=ko). ([람다](https://developers.google.com/machine-learning/crash-course/glossary?hl=ko#lambda) 값을 줄여보세요.)
 
-# => 클릭 [Binary Classification: 프로그래밍 실습](https://colab.research.google.com/github/google/eng-edu/blob/main/ml/cc/exercises/binary_classification.ipynb?utm_source=mlcc&utm_campaign=colab-external&utm_medium=referral&utm_content=binary_classification_tf2-colab&hl=en#scrollTo=QoW-59jVFF2I)
+### => 클릭 [Binary Classification: 프로그래밍 실습](https://colab.research.google.com/github/google/eng-edu/blob/main/ml/cc/exercises/binary_classification.ipynb?utm_source=mlcc&utm_campaign=colab-external&utm_medium=referral&utm_content=binary_classification_tf2-colab&hl=en#scrollTo=QoW-59jVFF2I) ###
