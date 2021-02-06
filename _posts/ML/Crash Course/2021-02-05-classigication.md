@@ -2,6 +2,9 @@
 layout: single
 title:  "분류(Classification)"
 toc: true
+sidebar:
+  title: "Sample Title"
+  nav: ML
 use_math: true
 ---
 
