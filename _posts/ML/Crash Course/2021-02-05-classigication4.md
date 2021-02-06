@@ -53,7 +53,6 @@ use_math: true
 ###  정확성(Accuracy) ###
 
 정확성은 분류 모델 평가를 위한 측정항목 중 하나입니다. 비공식적으로 **정확성**은 모델의 예측이 얼마나 정확한가를 보여줍니다. 공식적으로 정확성의 정의는 다음과 같습니다.
-
 $Accuracy = \frac{Number of correct prediction}{Total number of prediction}$
 
 이진 분류에서는 다음과 같이 양성과 음성을 기준으로 정확성을 계산할 수도 있습니다.
