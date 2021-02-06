@@ -327,7 +327,6 @@ $
 - 허위 양성 비율(False Positive Rate:FPR)
 
 **참 양성 비율**(**TPR**)은 재현율의 동의어이며 이에 따라 다음과 같이 정의됩니다.
-
 $
 TPR = \frac{TP}{TP + FP}
 $
