@@ -17,12 +17,12 @@ sidebar-sample:
 - title: "머신러닝"
   children:
     - title: "Crash Course"
-      url: /crash_course
+      url: /ml
     - title: "Child Page A2"
-      url: /
+      url: /ML
 - title: "Parent Page B"
   children:
-    - title: "Child Page B1"
+    - title: "crash_course"
       url: /
     - title: "Child Page B2"
       url: /
