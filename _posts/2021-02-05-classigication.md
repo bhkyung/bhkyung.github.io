@@ -12,6 +12,7 @@ defaults:
       share: true
       related: true
 title:  "분류(Classification)"
+categories: machine_learning
 toc: true
 sidebar:
   title: "Machine Learning"
