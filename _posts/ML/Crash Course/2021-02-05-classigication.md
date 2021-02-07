@@ -3,7 +3,7 @@ layout: single
 title:  "분류(Classification)"
 toc: true
 sidebar:
-  title: "Sample Title"
+  title: "Machine Learning"
   nav: sidebar-sample
 use_math: true
 ---
