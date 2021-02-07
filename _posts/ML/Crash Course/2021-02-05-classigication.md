@@ -54,7 +54,7 @@ use_math: true
 정확성은 분류 모델 평가를 위한 측정항목 중 하나입니다. 비공식적으로 **정확성**은 모델의 예측이 얼마나 정확한가를 보여줍니다. 공식적으로 정확성의 정의는 다음과 같습니다.
 
 $$
-정확성 = \frac{정확한 예측 수}{총 예측 }
+정확성 = \frac{정확한 \,예측 \,수}{총 \,예측 }
 $$
 
 이진 분류에서는 다음과 같이 양성과 음성을 기준으로 정확성을 계산할 수도 있습니다.
@@ -449,7 +449,7 @@ AUC는 다음 두 가지 이유로 이상적입니다.
 **예측 편향**은 두 평균이 서로 얼마나 멀리 떨어져 있는지 측정하는 수량입니다. 즉, 다음과 같습니다.
 
 $$
-예측 편향 = 예측 평균 - 데이터 세트의 레이블 평균
+prediction \,bias = average \,of  \,predictions - average \,of \,labels \,in \,data \,set
 $$
 
 **참고:** '예측 편향'은 [편향](https://developers.google.com/machine-learning/crash-course/descending-into-ml?hl=ko) (wx + *b* 의 b)과 다른 수량입니다.
