@@ -1,5 +1,16 @@
 ---
-layout: single
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
 title:  "분류(Classification)"
 toc: true
 sidebar:
