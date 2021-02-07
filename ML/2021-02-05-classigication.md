@@ -1,16 +1,5 @@
 ---
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+layout: single
 title:  "분류(Classification)"
 categories: crash_course
 toc: true
