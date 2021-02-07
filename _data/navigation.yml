@@ -10,6 +10,8 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+  - title: "Categories"
+    url: /categories/
   
 sidebar-sample:
 - title: "머신러닝"
