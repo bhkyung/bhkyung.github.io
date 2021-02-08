@@ -107,6 +107,7 @@ $$
 $$
 
 **참고:** 거짓양성이 나오지 않는 모델의 정밀도는 1.0입니다.
+{: .notice--success}
 
 [이전 섹션](https://developers.google.com/machine-learning/crash-course/classification/accuracy?hl=ko)에서 사용한 종양을 분석하는 ML 모델의 정밀도를 계산해 보겠습니다.
 
