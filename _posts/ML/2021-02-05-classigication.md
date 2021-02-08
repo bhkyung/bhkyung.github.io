@@ -1,7 +1,12 @@
 ---
 layout: single
 title:  "분류(Classification)"
-category: '/crash_course/'
+category_archive:
+  type: liquid
+  path: /crash_course/
+tag_archive:
+  type: liquid
+  path: /machine_learning/
 toc: true
 sidebar:
   title: "Machine Learning"
