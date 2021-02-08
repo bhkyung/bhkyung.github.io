@@ -11,7 +11,7 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
   - title: "Categories"
-    url: /categories/#crash_course
+    url: /categories/#machine-learning
   
 sidebar-sample:
 - title: "머신러닝"
