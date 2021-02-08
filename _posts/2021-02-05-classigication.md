@@ -1,7 +1,9 @@
 ---
 layout: single
 title:  "분류(Classification)"
-category_archive: machine-learning
+search: true
+categories:
+  - machine-learning
 toc: true
 sidebar:
   title: "Machine Learning"
