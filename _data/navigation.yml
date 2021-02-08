@@ -11,13 +11,13 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
   - title: "Categories"
-    url: /categories/%23machine-learning
+    url: "/categories/"
   
 sidebar-sample:
 - title: "머신러닝"
   children:
     - title: "Crash Course"
-      url: /machine-learning
+      url: "/machine-learning/"
     - title: "Child Page A2"
       url: /categories/machine-learning
 - title: "Parent Page B"
