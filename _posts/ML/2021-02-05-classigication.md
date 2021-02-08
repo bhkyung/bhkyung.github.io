@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "분류(Classification)"
-category: '/category/:crash_course/'
+category: '/crash_course/'
 toc: true
 sidebar:
   title: "Machine Learning"
