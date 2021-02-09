@@ -11,7 +11,7 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
   - title: "Categories"
-    url: /categories/machine-learning/
+    url: /#machine-learning/
   
 sidebar-sample:
 - title: "머신러닝"
@@ -19,7 +19,7 @@ sidebar-sample:
     - title: "Crash Course"
       url: "/machine-learning-archive/"
     - title: "Child Page A2"
-      url: /categories/machine-learning
+      url: /categories/#machine-learning
 - title: "Parent Page B"
   children:
     - title: "crash_course"
