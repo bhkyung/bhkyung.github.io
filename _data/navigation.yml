@@ -11,13 +11,13 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
   - title: "Crash Course"
-    url: /#crash-course/
+    url: /categories/#crash-course/
   
 sidebar-sample:
 - title: "머신러닝"
   children:
     - title: "Crash Course"
-      url: "/#crash-course/"
+      url: "/categories/#crash-course/"
 - title: "년도별"
   children:
     - title: "년"
