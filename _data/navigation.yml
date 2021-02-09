@@ -1,16 +1,16 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  # - title: "Quick-Start Guide"
+  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  - title: "Sample Posts"
-    url: /year-archive/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
-  - title: "Categories"
+  - title: "Crash Course"
     url: /#crash-course/
   
 sidebar-sample:
@@ -18,11 +18,11 @@ sidebar-sample:
   children:
     - title: "Crash Course"
       url: "/#crash-course/"
-    - title: "Child Page A2"
-      url: /#crash-course/
-- title: "Parent Page B"
+- title: "년도별"
   children:
     - title: "crash_course"
-      url: /
-    - title: "Child Page B2"
-      url: /
+      url: /year-archive/
+- title: "테마가이드"
+  children:
+    - title: "crash_course"
+      url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
