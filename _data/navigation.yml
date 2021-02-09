@@ -17,9 +17,9 @@ sidebar-sample:
 - title: "머신러닝"
   children:
     - title: "Crash Course"
-      url: "/categories/#machine-learning"
+      url: "/#machine-learning/"
     - title: "Child Page A2"
-      url: /categories/#machine-learning
+      url: /#machine-learning/
 - title: "Parent Page B"
   children:
     - title: "crash_course"
