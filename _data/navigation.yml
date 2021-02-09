@@ -20,9 +20,9 @@ sidebar-sample:
       url: "/#crash-course/"
 - title: "년도별"
   children:
-    - title: "crash_course"
+    - title: "년"
       url: /year-archive/
 - title: "테마가이드"
   children:
-    - title: "crash_course"
+    - title: "Minimal Mistakes"
       url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
