@@ -11,15 +11,15 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
   - title: "Categories"
-    url: /#machine-learning/
+    url: /#crash-course/
   
 sidebar-sample:
 - title: "머신러닝"
   children:
     - title: "Crash Course"
-      url: "/#machine-learning/"
+      url: "/#crash-course/"
     - title: "Child Page A2"
-      url: /#machine-learning/
+      url: /#crash-course/
 - title: "Parent Page B"
   children:
     - title: "crash_course"
