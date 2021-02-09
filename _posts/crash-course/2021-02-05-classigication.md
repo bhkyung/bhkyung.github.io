@@ -3,7 +3,7 @@ layout: single
 title:  "분류(Classification)"
 search: true
 categories:
-  - machine-learning
+  - crash-course
 toc: true
 sidebar:
   title: "Machine Learning"
