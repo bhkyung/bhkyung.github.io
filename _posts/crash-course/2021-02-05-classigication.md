@@ -4,6 +4,7 @@ search: true
 categories:
   - crash-course
 toc: true
+toc_label: "목차"
 sidebar:
   title: "Machine Learning"
   nav: sidebar-sample
