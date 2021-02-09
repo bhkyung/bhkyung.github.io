@@ -1,5 +1,4 @@
 ---
-layout: single
 title:  "분류(Classification)"
 search: true
 categories:
