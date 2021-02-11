@@ -13,7 +13,7 @@ use_math: true
 
 출처:  [Machine Learning Crash Course: Classification](https://developers.google.com/machine-learning/crash-course/regularization-for-sparsity/l1-regularization?hl=en)
 
-## [$L_1#정규화: 희소성 (L~1~ Regularization: Sparsity)](https://developers.google.com/machine-learning/crash-course/regularization-for-sparsity/l1-regularization?hl=en)
+## [$L_1$정규화: 희소성 (L~1~ Regularization: Sparsity)](https://developers.google.com/machine-learning/crash-course/regularization-for-sparsity/l1-regularization?hl=en)
 
 희소 벡터(sparse vectors)는 종종 많은 차원(dimensions)을 포함합니다. 특성 교차(feature cross)를 생성하면 더 많은 차원이 발생합니다. 이러한 고차원 특성 벡터( high-dimensional feature vectors)가 주어지면 모델 크기가 커질 수 있으며 엄청난 양의 RAM이 필요합니다.
 
