@@ -73,9 +73,11 @@ use_math: true
 #### 일반적인 활성화 함수
 
 다음 **시그모이드** 활성화 함수는 가중 합을 0과 1 사이의 값으로 변환합니다.
+
 $$
 F(x) = \frac{1}{1 + e^{-x}}
 $$
+
 다음은 플롯(a plot)입니다.
 
 ![시그모이드 함수](https://developers.google.com/machine-learning/crash-course/images/sigmoid.svg?hl=en)
@@ -83,9 +85,11 @@ $$
 **그림 7. 시그모이드 활성화 함수**
 
 다음 **정류 선형 유닛**(rectified linear unit) 활성화 함수(**ReLU**)는 시그모이드와 같은 평활 함수(a smooth function)보다 조금 더 효과적이지만, 훨씬 쉽게 계산할 수 있습니다.
+
 $$
 F(x)=max(0,x)
 $$
+
 ReLU의 우월성은 경험적 결과를 기반으로 하며, 이는 ReLU의 반응성(responsiveness) 범위가 더 유용하기 때문일 것입니다. 시그모이드의 반응성은 양쪽(both sides)에서 상대적으로 빨리 떨어집니다.
 
 ![ReLU 활성화 함수](https://developers.google.com/machine-learning/crash-course/images/relu.svg?hl=ko)
