@@ -16,11 +16,13 @@ use_math: true
 
 신경망은 특성 교차의보다 정교한 버전입니다. 본질적으로 신경망은 적절한 특성 교차를 학습합니다.
 
-<kbd>Ctrl</kbd>+<kbd>o</kbd><div class="notice">학습 목표 
-
-- 특히 다음과 같은 신경망에 대한 직관을 개발합니다. 
-  - 숨겨진 레이어 (hidden layers) 
-  - 활성화 함수 (activation function) </div>
+<ul class="notice">
+    <li>특히 다음과 같은 신경망에 대한 직관을 개발합니다. </li>
+    <ul>
+        <li>숨겨진 레이어 (hidden layers) </li>
+        <li>활성화 함수 (activation function)</li>
+    </ul>
+</ul>
   
 ## [구조(Structure)]
 
