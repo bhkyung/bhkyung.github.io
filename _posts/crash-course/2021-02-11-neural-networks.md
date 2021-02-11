@@ -12,7 +12,16 @@ use_math: true
 
 ---
 
-## 구조(Structure)
+출처: [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/introduction-to-neural-networks/video-lecture?hl=en)
+
+신경망은 특성 교차의보다 정교한 버전입니다. 본질적으로 신경망은 적절한 특성 교차를 학습합니다.
+
+학습 목표 {: .notice--success}
+> 특히 다음과 같은 신경망에 대한 직관을 개발합니다. {: .notice--success}
+  > 숨겨진 레이어 (hidden layers) {: .notice--success}
+  > 활성화 함수 (activation function) {: .notice--success}
+
+## [구조(Structure)]
 
 [특성 교차(Feature Crosses) 단원](https://developers.google.com/machine-learning/crash-course/feature-crosses/video-lecture?hl=ko)을 회상해보면, 다음 분류 문제(classification problem)는 비선형이다.
 
