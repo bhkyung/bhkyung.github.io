@@ -15,7 +15,7 @@ use_math: true
 출처: [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/introduction-to-neural-networks/video-lecture?hl=en)
 
 신경망은 특성 교차의보다 정교한 버전입니다. 본질적으로 신경망은 적절한 특성 교차를 학습합니다.
-<div class="notice-success">
+<div class="success">
 학습목표
 <ul>
     <li>특히 다음과 같은 신경망에 대한 직관을 개발합니다. </li>
