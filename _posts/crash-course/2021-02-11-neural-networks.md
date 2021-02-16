@@ -148,21 +148,21 @@ $$
 
  과제 1의 답
 
-<div class="notice--info" style="font-size: 70%; font-style: italic;">
+<div class="notice--primary" style="font-size: 70%; font-style: italic;">
     활성화가 <code>Linear</code>으로 설정되어 있으므로 이 모델은 어떠한 비선형성도 학습할 수 없습니다. 손실은 매우 높아, 이 모델은 데이터에 적합하지 않다(underfit)고 말합니다.
 </div>
 
 
  과제 2의 답
 
-<div class="notice--info" style="font-size: 70%; font-style: italic;">
+<div class="notice--primary" style="font-size: 70%; font-style: italic;">
     비선형 활성화 함수는 비선형 모델을 학습할 수 있습니다. 하지만 뉴런이 2개인 1개의 히든 레이어는 데이터의 모든 비선형성을 반영할 수 없고, 노이즈가 없어도 손실이 매우 높습니다: 여전히 데이터에 적합하지 않습니다(underfit). 이 실습은 비결정적이므로(nondeterministic), 실행(run)시 마다 학습이 효과적일 수도 비효과적일 수도 있습니다. 최고의 모델은 당신이 예상하는 모양이 아닐 수도 있습니다.
 </div>
 
 
  과제 3의 답
 
-<div class="notice--info" style="font-size: 70%; font-style: italic;">
+<div class="notice--primary" style="font-size: 70%; font-style: italic;">
     플레이 그라운드의 비 결정적 속성은 이 실습을 통해 빛을 발합니다. 3개의 뉴런이 있는 단일 히든레이어는 데이터세트(노이즈 없음)를 모델링하기에 충분하지만 모든 실행이 좋은 모델로 수렴되는 것은 아닙니다. 
 
 
@@ -175,7 +175,7 @@ $$
 
 과제 4의 답
 
-<div class="notice--info" style="font-size: 70%; font-style: italic;">
+<div class="notice--primary" style="font-size: 70%; font-style: italic;">
     3개의 뉴런이 있는 단일 히든 레이어는 데이터를 모델링할 수는 있지만, 중복성이 없으므로 많은 실행에서 쉽게(effectively) 뉴런을 잃고 좋은 모델을 학습하지 못합니다. 뉴런이 3개 이상인 단일 레이어는 중복성이 더 많으므로 좋은 모델로 수렴할 가능성이 더 많습니다.<br><br>
 
 
