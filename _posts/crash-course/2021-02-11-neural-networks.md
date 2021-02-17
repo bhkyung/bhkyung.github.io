@@ -196,3 +196,6 @@ $$
 과제 1, 2의 답
 
 [비디오 참조](https://developers.google.com/machine-learning/crash-course/introduction-to-neural-networks/playground-exercises?hl=ko#expandable-6)
+
+## [프로그래밍 실습](https://colab.research.google.com/github/google/eng-edu/blob/main/ml/cc/exercises/intro_to_neural_nets.ipynb)
+
