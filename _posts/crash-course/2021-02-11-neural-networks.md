@@ -195,4 +195,4 @@ $$
 
 과제 1, 2의 답
 
-[비디오 참조](
+[비디오 참조](https://developers.google.com/machine-learning/crash-course/introduction-to-neural-networks/playground-exercises?hl=ko#expandable-6)
