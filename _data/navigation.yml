@@ -26,3 +26,9 @@ sidebar-sample:
   children:
     - title: "Minimal Mistakes"
       url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+      
+sidebar-gm:
+- title: "관향지목"
+  children:
+    - title: "월별산행"
+      url: "/categories/#gm/"
