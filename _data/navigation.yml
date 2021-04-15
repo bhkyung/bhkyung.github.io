@@ -32,3 +32,9 @@ sidebar-gm:
   children:
     - title: "월별산행"
       url: "/categories/#gm/"
+      
+sidebar-creon:
+- title: "Creon-Plus"
+  children:
+    - title: "Creon"
+      url: "/categories/#creon/"
