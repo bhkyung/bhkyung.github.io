@@ -1,3 +1,15 @@
+---
+title:  "Request/Reply 방식와 Subscribe/Publish 방식"
+search: true
+categories:
+  - creon
+toc: true
+toc_label: "목차"
+sidebar:
+  title: "Creon-Plus"
+  nav: sidebar-creon
+
+---
 대신증권의통신은**Request/Reply (**  **RQ/RP** **)** **방식**과**Subscribe/Publish** **(****SB/PB****)** **방식**으로
 
 나눠집니다.**CybosPlus****의****각****통신****오브젝트는****이****두****가지****통신****모델****중****한가지만****지원합니다****.**
