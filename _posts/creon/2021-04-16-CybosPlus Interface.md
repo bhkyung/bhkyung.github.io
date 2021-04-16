@@ -12,7 +12,7 @@ sidebar:
 <style>
 H2{color:Blue !important;}
 </style>
-## Method ##
+## Method
 
 |                                                              | **RQ/RP**                                                    | **SB/PB**                                                    |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -29,7 +29,7 @@ H2{color:Blue !important;}
 
  
 
-![img](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACgSURBVDhPY/wPBAxkAiYoTRYYOM0Yfv7w4zrDvuu9DO/fXwPyOIH4O4OgoBaDk2YxgwCHJlgNDGDYfOz6VKDG+1AeCHCCDQKJowMMzc/fXweS34GYkyHZaS+cDRFHBVj8DFEMA8lOx6AskDgqwKIZphGieO4+ZygbYSAMYGiWFAQFCkQxskaIOCrA0GylmQ0OXWRnCgoqgsXRwchLngwMAG4tNxDXYvVAAAAAAElFTkSuQmCC)**Property**  
+## Property
 
 | object.**Continue** | 연속데이터유무를나타내는프로퍼티. (읽기전용)  반환값 : 1 - 연속데이터있음. 0 - 연속데이터없음. |
 | ------------------- | ------------------------------------------------------------ |
@@ -38,14 +38,14 @@ H2{color:Blue !important;}
 
  
 
-![img](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACgSURBVDhPY/wPBAxkAiYoTRYYOM0Yfv7w4zrDvuu9DO/fXwPyOIH4O4OgoBaDk2YxgwCHJlgNDGDYfOz6VKDG+1AeCHCCDQKJowMMzc/fXweS34GYkyHZaS+cDRFHBVj8DFEMA8lOx6AskDgqwKIZphGieO4+ZygbYSAMYGiWFAQFCkQxskaIOCrA0GylmQ0OXWRnCgoqgsXRwchLngwMAG4tNxDXYvVAAAAAAElFTkSuQmCC)**Event**
+## Event
 
 object**.Received**
 데이터를수신했을때발생하는이벤트
 
  
 
-![img](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACgSURBVDhPY/wPBAxkAiYoTRYYOM0Yfv7w4zrDvuu9DO/fXwPyOIH4O4OgoBaDk2YxgwCHJlgNDGDYfOz6VKDG+1AeCHCCDQKJowMMzc/fXweS34GYkyHZaS+cDRFHBVj8DFEMA8lOx6AskDgqwKIZphGieO4+ZygbYSAMYGiWFAQFCkQxskaIOCrA0GylmQ0OXWRnCgoqgsXRwchLngwMAG4tNxDXYvVAAAAAAElFTkSuQmCC)**BlockRequest/Blockrequest****2****/Request****의****리턴값**
+## BlockRequest/Blockrequest****2****/Request****의****리턴값
 
 |                  | **BlockRequest/BlockRequest2**                               | **Request** |
 | ---------------- | ------------------------------------------------------------ | ----------- |
@@ -54,7 +54,7 @@ object**.Received**
 
  
 
-![img](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACgSURBVDhPY/wPBAxkAiYoTRYYOM0Yfv7w4zrDvuu9DO/fXwPyOIH4O4OgoBaDk2YxgwCHJlgNDGDYfOz6VKDG+1AeCHCCDQKJowMMzc/fXweS34GYkyHZaS+cDRFHBVj8DFEMA8lOx6AskDgqwKIZphGieO4+ZygbYSAMYGiWFAQFCkQxskaIOCrA0GylmQ0OXWRnCgoqgsXRwchLngwMAG4tNxDXYvVAAAAAAElFTkSuQmCC)**요청제한**
+## 요청제한
 
 사용자의고의또는실수(무한루프등...)로부터서버및다른사용자들을보호하기위하여시세요청(RQ)과실시간요청(SB)에대해제한을두고있습니다.
 
@@ -69,7 +69,7 @@ CpCybos의 LimitRequestRemainTime과 GetLimitRemainCount로타임아웃까지남
 
  
 
-![img](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACgSURBVDhPY/wPBAxkAiYoTRYYOM0Yfv7w4zrDvuu9DO/fXwPyOIH4O4OgoBaDk2YxgwCHJlgNDGDYfOz6VKDG+1AeCHCCDQKJowMMzc/fXweS34GYkyHZaS+cDRFHBVj8DFEMA8lOx6AskDgqwKIZphGieO4+ZygbYSAMYGiWFAQFCkQxskaIOCrA0GylmQ0OXWRnCgoqgsXRwchLngwMAG4tNxDXYvVAAAAAAElFTkSuQmCC)  **BlockRequest****와****Bl****ockRequest2****비교**
+## BlockRequest와 BlockRequest2 비교
 
 예를들어설명하겠습니다. 다음과같은예가있습니다.
 (a) BlockRequest 하는도중에다른이벤트(Received,마우스클릭등) 처리안에서
@@ -83,7 +83,7 @@ CpCybos의 LimitRequestRemainTime과 GetLimitRemainCount로타임아웃까지남
 
  
 
-![img](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACgSURBVDhPY/wPBAxkAiYoTRYYOM0Yfv7w4zrDvuu9DO/fXwPyOIH4O4OgoBaDk2YxgwCHJlgNDGDYfOz6VKDG+1AeCHCCDQKJowMMzc/fXweS34GYkyHZaS+cDRFHBVj8DFEMA8lOx6AskDgqwKIZphGieO4+ZygbYSAMYGiWFAQFCkQxskaIOCrA0GylmQ0OXWRnCgoqgsXRwchLngwMAG4tNxDXYvVAAAAAAElFTkSuQmCC)  **Subscribe****와****SubscribeL****atest****비교**
+## Subscribe와 SubscribeLatest 비교
 
 시세변동의이벤트는내부에서는배열로처리하고있습니다.
 
