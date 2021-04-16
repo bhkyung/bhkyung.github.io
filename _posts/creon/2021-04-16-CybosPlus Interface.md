@@ -72,7 +72,7 @@ object.**Received**
 
 데이터를 수신했을 때 발생하는 이벤트 
 
-### BlockRequest/Blockrequest****2****/Request****의****리턴값
+### BlockRequest/Blockrequest2/Request의 리턴값
 
 |                  | **BlockRequest/BlockRequest2**                               | **Request** |
 | ---------------- | ------------------------------------------------------------ | ----------- |
