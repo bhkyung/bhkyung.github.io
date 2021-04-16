@@ -19,12 +19,14 @@ H2{color:Blue !important;}
 | **Data  Input**                                              | object.**SetInputValue** (type, value)<br/>  type에 해당하는 입력데이터를 Value 값으로 지정한다.<br/>  type : 입력데이터 종류<br/>  value : 새로 지정할 값 |                                                              |
 | **통신요청 (하단 각각 비교 설명 참조)** | object.**Request**()<br/>ret = object.**BlockRequest** ()<br/>ret = object.**BlockRequest2** (short  option)<br/>3가지 중에 선택 1 | object.**Subscribe**()<br/>object.**SubscribeLatest**()<br/>2가지 중에 선택 1 |
 | **Data  Get**                                                | value = object.**GetHeaderValue** ( type )<br/>   type에 해당하는 헤더데이터를 반환한다.<br/>  type : 데이터 종류 <br/>반환값 : 데이터 종류에 해당하는 값 <br/>value = object.**GetDataValue** ( type, index )<br/>  type : 데이터 종류<br/> index : 데이터 인덱스<br/> 반환값 : 데이터 종류의 index번째 데이터 |  
- 
+
+| ---------------- | ------------------------------------------------------------ |
 | object.**GetDibStatus** | DIB 통신상태 (읽기전용)<br/>  반환값 :<br/>  -1 - 오류<br/> 0 - 정상<br/> 1 - 수신대기.<br/>  오류(-1) , 정상(0) 상태에서는 데이타 요청 가능.<br/> 수신대기(1) Request를 요청하고 아직 Received 이벤트를 받지 않은 상태의 오브젝트로 다시  Request/BlockRequest/BlockRequest2를 호출한 경우에 발생 |
 | object.**GetDibMsg1**     | DIB 통신결과 메시지 문자열 (읽기전용)<br/>  반환값 : 결과 메시지 문자열 |
 | object.**GetDibMsg2**     | **사용안함**                                                 |
 
 ## Property
+| ---------------- | ------------------------------------------------------------ |
 | object.**Continue** | 연속 데이터 유무를 나타내는 프로퍼티. (읽기전용)<br/>  반환값 :<br/> 1 - 연속 데이터 있음.<br/> 0 - 연속 데이터 없음. |
 | object.**Header**   | Header 컬렉션 루트 객체를 반환한다.<br/>  Header 컬렉션에는 Header 정보의 종류와 이름이 들어있다.(읽기전용)<br/>  반환값 : Header 컬렉션 객체. |
 | object.**Data**     | Data 컬렉션 루트 객체를 반환한다.<br/>  Data 컬렉션에는 Data 정보의 종류와 이름이 들어있다.(읽기전용)<br/>  반환값 : Data 컬렉션 객체. | 
