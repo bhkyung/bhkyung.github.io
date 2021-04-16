@@ -17,7 +17,7 @@ H3{color:Blue !important;}
   <thead>
     <tr>
       <th></th>
-      <th>**RQ/RP**</th>
+      <th><b>RQ/RP</b></th>
       <th>**SB/PB**</th>
     </tr>
   </thead>
