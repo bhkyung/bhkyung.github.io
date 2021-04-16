@@ -1,5 +1,16 @@
-**-** **CYBOS Code****규칙**
+---
+title:  "CybosPlus Etc"
+search: true
+categories:
+  - creon
+toc: true
+toc_label: "목차"
+sidebar:
+  title: "Creon-Plus"
+  nav: sidebar-creon
+---
 
+### CYBOS Code 규칙
 | 분류     | 내용                 | CYBOS의비교화면                     |
 | -------- | -------------------- | ----------------------------------- |
 | 주식     | A + 6자리(A003540)   | tr7021,7024  등등의주식화면         |
@@ -10,7 +21,7 @@
 
  
 
-**-** **C****ybosPlus DataType**
+### CybosPlus DataType
 
 CybosPlus는COM( Component Object  Model)을기반으로만들어진모듈입니다.  
 
