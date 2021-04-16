@@ -21,9 +21,9 @@ H2{color:Blue !important;}
 | **Data  Get**                                                | value = object.**GetHeaderValue** ( type )<br/>   type에해당하는헤더데이터를반환한다.<br/>  type : 데이터종류 <br/>반환값 : 데이터종류에해당하는값 <br/>value = object.**GetDataValue** ( type, index )<br/>  type : 데이터종류<br/> index : 데이터인덱스<br/> 반환값 : 데이터종류의 index 번째데이터 |                                                              |
 
  
-
-| object.**GetDibStatus** | DIB 통신상태 (읽기전용)<br/>  반환값 :<br/>  -1 - 오류<br/> 0 - 정상<br/> 1 - 수신대기.<br/>  오류(-1) , 정상(0) 상태에서는데이타요청가능.<br/> 수신대기(1) Request를 요청하고 아직 Received 이벤트를 받지 않은 상태의 오브젝트로 다시 Request/BlockRequest/BlockRequest2를 호출한 경우에 발생 |
 | ------------------------- | ------------------------------------------------------------ |
+| object.**GetDibStatus** | DIB 통신상태 (읽기전용)<br/>  반환값 :<br/>  -1 - 오류<br/> 0 - 정상<br/> 1 - 수신대기.<br/>  오류(-1) , 정상(0) 상태에서는데이타요청가능.<br/> 수신대기(1) Request를 요청하고 아직 Received 이벤트를 받지 않은 상태의 오브젝트로 다시 Request/BlockRequest/BlockRequest2를 호출한 경우에 발생 |
+
 | object.**GetDibMsg1**     | DIB 통신결과메시지문자열(읽기전용)<br/>  반환값 : 결과메시지문자열 |
 | object.**GetDibMsg2**     | **사용안함**                                                 |
 
