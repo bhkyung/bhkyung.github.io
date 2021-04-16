@@ -32,32 +32,26 @@ value : 새로 지정할 값</td>
     <tr>
       <td><b>통신요청 (하단 각각 비교 설명 참조)</b></td>
       <td>object.<b>Request()</b><br/>
-ret = object.**BlockRequest()**<br/>
-ret = object.**BlockRequest2**(short option)<br/>
+ret = object.<b>BlockRequest()</b><br/>
+ret = object.<b>BlockRequest2</b>(short option)<br/>
 3가지 중에 선택 1</td>
-      <td>object.**Subscribe()**
-object.**SubscribeLatest()**
+      <td>object.<b>Subscribe()</b>
+object.<b>SubscribeLatest()</b>
 2가지 중에 선택 1</td>
     </tr>
     <tr>
       <td>Data Get</td>
-      <td colspan="2">value = object.**GetHeaderValue ( type )**<br/>
+      <td colspan="2">value = object.<b>GetHeaderValue ( type )</b><br/>
 type에 해당하는 헤더데이터를 반환한다.<br/>
 type : 데이터 종류<br/>
 반환값 : 데이터 종류에 해당하는 값<br/>
-value = object.**GetDataValue ( type, index )**<br/>
+value = object.<b>GetDataValue ( type, index )</b><br/>
 type : 데이터 종류<br/>
 index : 데이터 인덱스<br/>
 반환값 : 데이터 종류의 index번째 데이터</td>
     </tr>
   </tbody>
 </table>
-
-|                                                              | **RQ/RP**                                                    | **SB/PB**                                                    |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **Data  Input**                                              | object.**SetInputValue** (type, value)<br/>  type에 해당하는 입력데이터를 Value 값으로 지정한다.<br/>  type : 입력데이터 종류<br/>  value : 새로 지정할 값 |                                                              |
-| **통신요청 (하단 각각 비교 설명 참조)** | object.**Request**()<br/>ret = object.**BlockRequest** ()<br/>ret = object.**BlockRequest2** (short  option)<br/>3가지 중에 선택 1 | object.**Subscribe**()<br/>object.**SubscribeLatest**()<br/>2가지 중에 선택 1 |
-| **Data  Get**                                                | value = object.**GetHeaderValue** ( type )<br/>   type에 해당하는 헤더데이터를 반환한다.<br/>  type : 데이터 종류 <br/>반환값 : 데이터 종류에 해당하는 값 <br/>value = object.**GetDataValue** ( type, index )<br/>  type : 데이터 종류<br/> index : 데이터 인덱스<br/> 반환값 : 데이터 종류의 index번째 데이터 |  
 
 |    <!-- -->          |        <!-- -->                     |
 |----------------------|-------------------------------------|
