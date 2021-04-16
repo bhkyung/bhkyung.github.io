@@ -40,7 +40,7 @@ H2{color:Blue !important;}
 
 ## Event
 
-object**.Received**
+object.**Received**<br/>
 데이터를수신했을때발생하는이벤트
 
  
