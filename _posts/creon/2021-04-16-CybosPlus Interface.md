@@ -18,20 +18,20 @@ H3{color:Blue !important;}
     <tr>
       <th></th>
       <th><b>RQ/RP</b></th>
-      <th>**SB/PB**</th>
+      <th><b>SB/PB</b></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>**Data Input**</td>
-      <td colspan="2">object.**SetInputValue** (type, value)<br/>
+      <td><b>Data Input</b></td>
+      <td colspan="2">object.<b>SetInputValue</b> (type, value)<br/>
 type에 해당하는 입력데이터를 Value 값으로 지정한다.<br/>
 type : 입력데이터 종류<br/>
 value : 새로 지정할 값</td>
     </tr>
     <tr>
-      <td>통신요청 (하단 각각 비교 설명 참조)</td>
-      <td>object.**Request()**<br/>
+      <td><b>통신요청 (하단 각각 비교 설명 참조)</b></td>
+      <td>object.<b>Request()</b><br/>
 ret = object.**BlockRequest()**<br/>
 ret = object.**BlockRequest2**(short option)<br/>
 3가지 중에 선택 1</td>
