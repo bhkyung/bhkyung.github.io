@@ -16,7 +16,7 @@ H2{color:Blue !important;}
 
 |                                                              | **RQ/RP**                                                    | **SB/PB**                                                    |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **Data  Input**                                              | object.**SetInputValue** (type, value)  type에 해당하는 입력데이터를 Value 값으로 지정한다.  type : 입력데이터 종류  value : 새로 지정할 값 |                                                              |
+| **Data  Input**                                              | object.**SetInputValue** (type, value)<br/>  type에 해당하는 입력데이터를 Value 값으로 지정한다.  type : 입력데이터 종류  value : 새로 지정할 값 |                                                              |
 | **통신****요청****(****하단****각각****비교****설명****참조****)** | object.**Request**()ret = object.**BlockRequest** ()ret = object.**BlockRequest2** (short  option)3가지중에선택1 | object.**Subscribe**()object.**SubscribeLatest**()2가지중에선택1 |
 | **Data  Get**                                                | value = object.**GetHeaderValue** ( type )   type에해당하는헤더데이터를반환한다.  type : 데이터종류 반환값 : 데이터종류에해당하는값 value = object.**GetDataValue** ( type, index )  type : 데이터종류 index : 데이터인덱스 반환값 : 데이터종류의 index 번째데이터 |                                                              |
 
