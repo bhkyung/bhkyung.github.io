@@ -22,7 +22,7 @@ H2{color:Blue !important;}
 
  
 
-| object.  **GetDibStatus** | DIB 통신상태 (읽기전용)<br/>  반환값 :<br/>  -1 - 오류<br/> 0 - 정상<br/> 1 - 수신대기.<br/>  오류(-1) , 정상(0) 상태에서는데이타요청가능.<br/> 수신대기(1) Request를 요청하고 아직 Received 이벤트를 받지 않은 상태의 오브젝트로 다시 Request/BlockRequest/BlockRequest2를 호출한 경우에 발생 |
+| object.**GetDibStatus** | DIB 통신상태 (읽기전용)<br/>  반환값 :<br/>  -1 - 오류<br/> 0 - 정상<br/> 1 - 수신대기.<br/>  오류(-1) , 정상(0) 상태에서는데이타요청가능.<br/> 수신대기(1) Request를 요청하고 아직 Received 이벤트를 받지 않은 상태의 오브젝트로 다시 Request/BlockRequest/BlockRequest2를 호출한 경우에 발생 |
 | ------------------------- | ------------------------------------------------------------ |
 | object.**GetDibMsg1**     | DIB 통신결과메시지문자열(읽기전용)<br/>  반환값 : 결과메시지문자열 |
 | object.**GetDibMsg2**     | **사용안함**                                                 |
@@ -31,7 +31,7 @@ H2{color:Blue !important;}
 
 ## Property
 
-| object.**Continue** | 연속데이터유무를나타내는프로퍼티. (읽기전용)<br/>  반환값 : 1 - 연속데이터있음. 0 - 연속데이터없음. |
+| object.**Continue** | 연속데이터유무를나타내는프로퍼티. (읽기전용)<br/>  반환값 :<br/> 1 - 연속데이터있음.<br/> 0 - 연속데이터없음. |
 | ------------------- | ------------------------------------------------------------ |
 | object.**Header**   | Header 컬렉션루트객체를반환한다.<br/>  Header 컬렉션에는 Header 정보의종류와이름이들어있다.(읽기전용)<br/>  반환값 : Header 컬렉션객체. |
 | object.**Data**     | Data 컬렉션루트객체를반환한다.<br/>  Data 컬렉션에는 Data 정보의종류와이름이들어있다.(읽기전용)<br/>  반환값 : Data 컬렉션객체. |
