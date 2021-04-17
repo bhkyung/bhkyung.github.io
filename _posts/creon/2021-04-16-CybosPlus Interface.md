@@ -10,7 +10,7 @@ sidebar:
   nav: sidebar-creon
 ---
 <style>
-H2{color:Blue !important;}
+H2{color:ForestGreen !important;}
 </style>
 ## Method
 <table>
