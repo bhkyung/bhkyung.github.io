@@ -10,13 +10,13 @@ sidebar:
   nav: sidebar-creon
 ---
 <style>
-H3{color:Blue !important;}
+H2{color:Blue !important;}
 </style>
 **설명**: CYBOS의 각종 상태를 확인할 수 있음.
 
 **모듈위치**: CpUtil.dll
 
-### Property
+## Property
 
 value = object.**IsConnect**
 
@@ -36,7 +36,7 @@ value = object.**LimitRequestRem****a****inTime**
 
 * 반환값: 요청개수를 재계산하기까지 남은시간(단위:milisecond)
 
-### Method
+## Method
 
 value = object.**GetLimitRemainCount(limitType)**
 
@@ -58,7 +58,7 @@ value = object.<span style= "color:Red !important;">**PlusDisconnect()**</span>
 
 Plus 종료. 단 종료 API 호출 하더라도 사용하시는 응용프로그램을 종료하지 않으면 PLUS 연결 서비스가 유지됩니다.
 
-### Event
+## Event
 
 Object.**OnDisConnect**
 
