@@ -10,37 +10,37 @@ sidebar:
   nav: sidebar-creon
 ---
 
-**설명**: CYBOS의각종상태를확인할수있음.
+**설명**: CYBOS의 각종 상태를 확인할 수 있음.
 
 **모듈위치**: CpUtil.dll
 
-**Property**
+### Property
 
 value = object.**IsConnect**
 
-(읽기전용) CYBOS의통신연결상태를반환합니다
+(읽기전용) CYBOS의 통신 연결상태를 반환합니다
 
-- 반환값: 0- 연결끊김, 1- 연결정상
+  반환값: 0- 연결끊김, 1- 연결정상
 
 value = object.**ServerType**
 
-(읽기전용) 연결된서버종류를반환합니다
+(읽기전용) 연결된 서버 종류를 반환합니다
 
-- 반환값: 0- 연결끊김, 1- cybosplus 서버, 2- HTS 보통서버(cybosplus 서버제외)
+  반환값: 0- 연결끊김, 1- cybosplus 서버, 2- HTS 보통서버(cybosplus 서버제외)
 
 value = object.**LimitRequestRem****a****inTime**
 
-(읽기전용) 요청개수를재계산하기까지남은시간을반환합니다. 즉리턴한시간동안남은요청개수보다더요청하면요청제한이됩니다.
+(읽기전용) 요청개수를 재계산하기까지 남은시간을 반환합니다. 즉 리턴한 시간동안 남은 요청개수보다 더 요청하면 요청제한이 됩니다.
 
-- 반환값: 요청개수를재계산하기까지남은시간(단위:milisecond)
+  반환값: 요청개수를 재계산하기까지 남은시간(단위:milisecond)
 
-**Method**
+### Method
 
 value = object.**GetLimitRemainCount(limitType)**
 
-limitType에대한제한을하기까지남은요청개수를반환합니다.
+limitType에 대한 제한을 하기까지 남은 요청개수를 반환합니다.
 
-- limitType: 요쳥에 대한 제한타입
+  limitType: 요쳥에 대한 제한타입
 
 LT_TRADE_REQUEST    = 0, 주문 / 계좌 관련 RQ 요청
 
@@ -48,20 +48,20 @@ LT_NONTRADE_REQUEST = 1, 시세관련 RQ 요청
 
 LT_SUBSCRIBE        = 2, 시세관련 SB
 
-- 반환값: 제한을하기전까지의남은요청개수
+  반환값: 제한을 하기 전까지의 남은 요청개수
 
   
 
-value = object.**PlusDisconnect()**
+value = object.<span style= "color:Red !important;">**PlusDisconnect()**</span>
 
-Plus 종료. 단 종료 API 호출 하더라도 사용하시는 응용프로그램을 종료하지않으면 PLUS 연결 서비스가 유지됩니다.
+Plus 종료. 단 종료 API 호출 하더라도 사용하시는 응용프로그램을 종료하지 않으면 PLUS 연결 서비스가 유지됩니다.
 
-**Event**
+### Event
 
 Object.**OnDisConnect**
 
-U-CYBOS의통신연결상태가끊긴경우에이벤트가발생합니다.
+U-CYBOS의 통신연결 상태가 끊긴 경우에 이벤트가 발생합니다.
 
-이이벤트를받은후에는더이상데이터통신이불가능합니다.
+이 이벤트를 받은후에는 더 이상 데이터통신이 불가능합니다.
 
-가능한프로그램을정리하고 안전하게종료하도록프로그램을작성해야합니다.
+가능한 프로그램을 정리하고 안전하게 종료하도록 프로그램을 작성해야 합니다.
