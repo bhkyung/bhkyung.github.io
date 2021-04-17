@@ -40,7 +40,7 @@ value = object.**GetLimitRemainCount(limitType)**
 
 limitType에 대한 제한을 하기까지 남은 요청개수를 반환합니다.
 
-* limitType: 요쳥에 대한 제한타입
+* limitType: 요청에 대한 제한타입
 
   * LT_TRADE_REQUEST    = 0, 주문 / 계좌 관련 RQ 요청
 
