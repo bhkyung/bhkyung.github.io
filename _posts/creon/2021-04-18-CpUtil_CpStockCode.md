@@ -34,7 +34,6 @@ code에 해당하는 종목명을 반환합니다.
 value = object.**CodeToFullCode(code)**
 
 code에 해당하는 FullCode를 반환한다.
-
 - Code: 종목코드,
 - 반환값: Full Code
 
