@@ -27,14 +27,20 @@ sidebar-sample:
     - title: "Minimal Mistakes"
       url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
       
-sidebar-gm:
-- title: "관향지목"
+sidebar-life:
+- title: "좋은글"
   children:
-    - title: "월별산행"
-      url: "/categories/#gm/"
+    - title: "인생"
+      url: "/categories/#life/"
       
 sidebar-creon:
 - title: "Creon-Plus"
   children:
     - title: "Creon"
       url: "/categories/#creon/"
+
+sidebar-gm:
+- title: "관향지목"
+  children:
+    - title: "월별산행"
+      url: "/categories/#gm/"
