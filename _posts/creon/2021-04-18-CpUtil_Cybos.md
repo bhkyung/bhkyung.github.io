@@ -9,6 +9,9 @@ sidebar:
   title: "Creon-Plus"
   nav: sidebar-creon
 ---
+<style>
+H3{color:Blue !important;}
+</style>
 
 **설명**: CYBOS의 각종 상태를 확인할 수 있음.
 
