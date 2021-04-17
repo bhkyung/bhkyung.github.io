@@ -10,7 +10,7 @@ sidebar:
   nav: sidebar-creon
 ---
 <style>
-H2{color:Blue !important;}
+H2{color:ForestGreen !important;}
 </style>
 **설명**: CYBOS의 각종 상태를 확인할 수 있음.
 
