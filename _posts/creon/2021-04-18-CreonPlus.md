@@ -10,8 +10,8 @@ sidebar:
   nav: sidebar-creon
 ---
 <style>
-H2{color:ForestGreen !important;}
-H3{color:Aquamarine !important;}
+H2{color:DarkBlue !important;}
+H3{color:Crimson !important;}
 </style>
 ## 개요
 * [CybosPlus Inst](https://money2.creontrade.com/e5/mboard/ptype_basic/HTS_Plus_Helper/DW_Basic_Read_Page.aspx?boardseq=296&seq=217&page=1&searchString=&p=&v=&m=)
