@@ -10,7 +10,7 @@ sidebar:
   nav: sidebar-creon
 ---
 <style>
-H2{color:DarkBlue !important;}
+H2{color:Blue !important;}
 H4{color:Crimson !important;}
 </style>
 ## 개요
