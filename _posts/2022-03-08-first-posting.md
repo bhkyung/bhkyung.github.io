@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "첫 번째 블로그입니다!"
+categories: coding
 ---
 # 와우~
 
