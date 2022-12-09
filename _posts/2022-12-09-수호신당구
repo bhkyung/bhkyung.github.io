@@ -1,0 +1,18 @@
+---
+layout: single
+title: "수호신당구"
+categories: billiard
+tag: [옆돌리기, 10포인트]
+toc: true
+author_profile: false
+sidebar:
+  nav: "docs"
+---
+
+# 단쿠션 1쿠션 10 포인트 #
+
+[![앞돌리기 1쿠션 10포인트](/images/앞돌리기_1쿠션10포인트1.png)](/images/앞돌리기_1쿠션10포인트1.png)
+
+# 동영상 #
+
+{% include video id="CLCpmykB7sc" provider="youtube" %}
