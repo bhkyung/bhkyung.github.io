@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Half System "
+title: "Half System"
 categories: billiard
 tag: [옆돌리기, 앞돌리기, 뒤돌리기] 
 toc: true
