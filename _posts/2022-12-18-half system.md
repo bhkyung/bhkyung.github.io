@@ -2,7 +2,7 @@
 layout: single
 title: "Half System"
 categories: billiard
-tag: [옆돌리기, 앞돌리기, 뒤돌리기] 
+tag: [옆돌리기, 앞돌리기, 뒤돌리기, 시스템] 
 toc: true
 author_profile: false
 sidebar:
