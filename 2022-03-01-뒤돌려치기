@@ -1,0 +1,22 @@
+---
+layout: single
+title: "뒤돌려치기"
+categories: billiard
+tag: [앞돌리기]
+toc: true
+author_profile: false
+sidebar:
+  nav: "docs"
+---
+
+## 뒤돌리기 무회전 수구포인트 - 1적구포인트 = 20, 3쿠션 코너
+
+{% include video id="7HKCvaVyTTA" provider="youtube" %}
+
+## 뒤돌리기 짧은 무회전 수구포인트 - 1적구포인트 = 20, 3쿠션 코너
+
+{% include video id="6jwkOvd3CLQ" provider="youtube" %}
+
+## 뒤돌리기 외워서 치기 이상대 단쿠션기준 수구 20, 25, 30
+
+{% include video id="Frl0xmcZXbg" provider="youtube" %}
