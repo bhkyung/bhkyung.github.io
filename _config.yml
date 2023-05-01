@@ -291,3 +291,9 @@ defaults:
       show_date: true
 
 date_format: "%Y-%m-%d"
+
+# Collections
+collections:
+  diary:
+    output: true
+    permalink: /diary/:title
