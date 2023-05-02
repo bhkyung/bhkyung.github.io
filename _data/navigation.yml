@@ -1,5 +1,16 @@
 # main links
 main:
+  - title: "당구"
+    url: /categories/
+    children:
+      - title: "옆돌리기"
+        url: /tags/#%EC%98%86%EB%8F%8C%EB%A6%AC%EA%B8%B0
+      - title: "뒤돌리기"
+        url: /tags/#뒤돌리기
+      - title: "비껴치기"
+        url: /tags/#비껴치기
+      - title: "앞돌리기"
+        url: /tags/#앞돌리기
   - title: "옆돌리기"
     url: /tags/#%EC%98%86%EB%8F%8C%EB%A6%AC%EA%B8%B0
   - title: "뒤돌리기"
@@ -8,8 +19,6 @@ main:
     url: /tags/#비껴치기
   - title: "앞돌리기"
     url: /tags/#앞돌리기
-  - title: "카테고리"
-    url: /categories/
   - title: "태그"
     url: /tags/
   - title: "검색"
