@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "플러스투 시스템 (Plus two System)"
-categories: billiard
+categories: [billiard]
 tag: [플러스, 앞돌리기, 비껴치기, 시스템] 
 toc: true
 author_profile: false
