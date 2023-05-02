@@ -20,8 +20,6 @@ main:
 docs:
   - title: "대목차"
     children:
-      - title: "당구"
-        url: /categories/#billiard
       - title: "카테고리"
         url: /categories/
       - title: "태그"
