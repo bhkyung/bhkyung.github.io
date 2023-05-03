@@ -13,6 +13,11 @@ main:
       url: /tags/#뒤돌리기
     - title: "세워치기"
       url: /tags/#세워치기
+  - title: "마음수련"
+    url: /categories/#mental
+    sublinks:
+    - title: "마음수련명상센터"
+      url: /tags/#명상
   - title: "카테고리"
     url: /categories/
   - title: "태그"
