@@ -2,6 +2,9 @@
 main:
   - title: "당구"
     url: /categories/#billiard
+    sublinks:
+    - title: "세워치기"
+      url: /tags/#세워치기
   - title: "카테고리"
     url: /categories/
   - title: "태그"
