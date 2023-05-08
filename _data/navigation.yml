@@ -18,6 +18,8 @@ main:
       url: /tags/#뒤돌리기
     - title: "세워치기"
       url: /tags/#세워치기
+  - title: "요리"
+    url: /categories/#cooking
   - title: "카테고리"
     url: /categories/
   - title: "태그"
