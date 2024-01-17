@@ -1,6 +1,6 @@
 # main links
 main:
-  - title: "연습"
+  - title: "갤러리"
     url: /tags/#연습
   - title: "태그"
     url: /tags/
@@ -14,7 +14,7 @@ main:
 docs:
   - title: "대목차"
     children:
-      - title: "카테고리"
+      - title: "갤러리"
         url: /categories/
       - title: "태그"
         url: /tags/
