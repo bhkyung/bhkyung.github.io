@@ -15,7 +15,7 @@ docs:
   - title: "대목차"
     children:
       - title: "갤러리"
-        url: /categories/
+        url: /tags/#갤러리
       - title: "태그"
         url: /tags/
   # - title: "About"
